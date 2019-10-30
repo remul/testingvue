@@ -34,7 +34,7 @@ describe('Counter', () => {
 
     expect(wrapper.find('.decrement').element.style.display).toBe('none');
 
-    wrapper.find('.increment').trigger('click'); // 1
+    wrapper.setData({ count: 1 });
 
     expect(wrapper.find('.decrement').element.style.display).toBe('');
   });
