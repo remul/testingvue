@@ -39,7 +39,7 @@
     "jsdom-global": "^3.0.2",
     "mocha": "^6.2.2",
     "mocha-webpack": "^1.1.0",
-    "node-sass": "^4.5.3",
+    "node-sass": "^7.0.0",
     "sass-loader": "^6.0.6",
     "sinon": "^7.5.0",
     "vue-loader": "^13.0.5",
